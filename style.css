@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sa{
+    font-size: 30px;
+    font-family: mv boli;
+    color: orange;
+}
+.sp{
+    font-size: 170px;
+    color: orange;
+    font-family: mv boli;
+    
+}
+.name{
+    font-size: 80px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+ 
+.carousel-item{
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    height: 700px;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+    opacity: 0.4;
+}
+.carousel-caption{
+    bottom: 280px;
+    padding-left: 80px;
+}
+.products{
+    padding: 80px;
+   
+}
+.section-sub-title{
+    color: rgb(152, 148, 142);
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 20px;
+}
+.section-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.pname{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products-rate-icon{
+    text-align: center;
+    color:rgb(234, 170, 30);
+}
+.rate{
+    color: black;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.bottom{
+     margin-left: 70px;
+     top: 10px;
+}
+.pro{
+    padding: 15px;
+}
+.products-image:hover{
+    
+   
+}
+.notified{
+    padding: 80px;
+    background-image: url(notification2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+} 
+.get{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+.form-control{
+    background: none;
+    border-width: 2px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.notib{
+    background: none;
+}
+.awesome{
+    color: #aaa3a3;
+    letter-spacing: 3px;
+    font-size: 17px;
+    text-align: center;
+}
+.featured{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+}
+.awesomnep{
+    padding: 80px;
+}
+.product-about{
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-text{
+    color: #7f7878;
+}
+.mr-2{
+    font-size: 18px;
+    font-weight: 200;
+}
+.current-price{
+    font-size: 19px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+.aimg{
+    margin-left: 50px;
+}
+.py-4{ 
+    color: #aaa3a3;
+
+}
+.about{
+    padding: 90px;
+}
+.about-title{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 75px;
+}
+.ptitle{
+    text-align: center;
+    color: #b1a8a8;
+}
+
+
+.exprience {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background: #46ddb0;
+    padding: 30px;
+}
+.years{
+    font-weight: 700;
+}
+.caption{
+    font-weight: 400;
+    color: rgb(163, 254, 254);
+}
+.leader{
+  
+
+}
+.persone{
+    font-size: 18px;
+}
+.mb-4{
+    color: rgb(146, 146, 144);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul-social-circle li{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin: 8px;
+}
+.ul-social-circle li i{
+    width: 30px;
+    height: 30px;
+    background: #777;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+}
+.ul-social-circle li i:hover{
+    background: black;
+
+}
